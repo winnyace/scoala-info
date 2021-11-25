@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -11,8 +10,7 @@ int main()
 	 * nminus pt nr negative
 	 * nnul pt 0 */
 	cout << "dati val lui n(13 pt stop): "; cin >> n;
-	while (n != 13)
-	{
+	while (n != 13) {
 		sw = 1; // folosim acest sw pt a nu oferi la final 0 in caz ca nu s-au citit nr. il putem aici deoarece putem si ajuta utilizatorul
 		if (n > 0)
 			nplus++;
@@ -22,8 +20,7 @@ int main()
 			nnul++;
 		cout << "dati val lui n(13 pt stop): "; cin >> n;
 	}
-	if (sw == 1) // iar aici este exact ce vorbeam mai sus.
-	{
+	if (sw == 1) { // iar aici este exact ce vorbeam mai sus.
 		cout << "nr positive citite " << nplus;
 		cout << endl << "nr negative citite " << nminus;
 		cout << endl << "nr nule citite " << nnul;

@@ -1,20 +1,23 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-    // acest program este o solutie pentru problem fizz buzz
-    // daca un number este div cu 3 scrie fizz. daca e cu 5 scrie buzz. daca e cu ambele scrie fizzbuzz. altfel nu se schimba nimic.
-    int n;
-    cout << "n= "; cin >> n;
-    if (n % 3 == 0 && n % 5 == 0)
-        cout << "fizzbuzz";
-	else if (n % 3 == 0)
-		cout << "fizz";
-	else if (n % 5 == 0)
-		cout << "buzz";
-	else
-		cout << n;
+    /*
+    fizzbuzz este o întrebare standard din multe interview-uri de programare.
+    intrebarea nu este grea, însă poate spune multe despre noi ca și programatori.
+    am sa folosc o listă, de la 100, pentru input-ul programului.
+    */
+    cout << "voi face fizzbuzz de la numerele 1 pana la 100:\n";
+    for (int i = 1; i <= 100; i++) {
+        if (i%3 == 0 && i%5 == 0)
+            cout << "fizzbuzz\n";
+        else if (i%3 == 0)
+            cout << "fizz\n";
+        else if (i%5 == 0)
+            cout << "buzz\n";
+        else
+            cout << i << endl;
+    }
     return 0;
 }
