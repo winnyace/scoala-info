@@ -22,3 +22,7 @@ Arch/Manjaro
 Găsim fișierul pe care vrem să-l rulăm și, tot din terminal, vom compila fișierul astfel:
 
 <code>g++ -o *nume_fisier* *nume_fisier*.cpp</code>
+
+Pentru al rula, vom face astfel:
+
+<code>./*nume_fisier*</code>
