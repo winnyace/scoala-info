@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
+    // acest program va folosi ce am învățat despre mod și div și vom calcula suma cifrelor unui numar.
     int num, suma = 0;
-    cout << "nr = "; cin >> no;
-    sc = 0;
-    while(no != 0) {
-        sc = sc + no % 10; // foarte simplu. suma este suma trecuta( la inceput 0) + ultima cifra al lui no.
-        no = no / 10; // pentru a nu aduna acelasi nr pana la moartea universului, vom uita de ultima cifra al lui no asa.
+    cout << "o sa calculez suma cifrelor unui numar. spune-mi numarul:"; cin >> num;
+    while (num != 0) {
+        // am învățat că div/10 scapă de cifrele unui număr. când scăpam de ultima cifră, numărul rămas e 0.
+        suma = suma * 10 + num%10; // înmulțim cu 10 pentru posiția cifrei.
+        num /= 10;
     }
-    cout << "suma = " << sc;
-    return 0;
+    cout << "suma cifrelor este " << suma;
 }
