@@ -5,7 +5,7 @@ modificările vor veni în timp. încerc să aduc și explicații la ce este dat
 
 # Download
 
-Ambele metode necesită clonarea/downloadarea repo-ului. Cea mai ușoară modalitate este de a download un ZIP de sub download. ![download-zip](https://i.imgur.com/ueG1Sz6.png)
+Ambele metode necesită clonarea/downloadarea repo-ului. Cea mai ușoară metoda este de a download tot. ![download-zip](https://i.imgur.com/ueG1Sz6.png)
 
 Extragem din archiva ZIP ce dorim să rulă.
 
