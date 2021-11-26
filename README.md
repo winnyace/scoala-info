@@ -5,7 +5,9 @@ modificările vor veni în timp. încerc să aduc și explicații la ce este dat
 
 # Download
 
-Ambele metode necesită clonarea/downloadarea repo-ului. ![download-zip](https://i.imgur.com/ueG1Sz6.png)
+Ambele metode necesită clonarea/downloadarea repo-ului.
+
+![download-zip](https://i.imgur.com/ueG1Sz6.png)
 
 Extragem din archiva ZIP ce dorim să rulă.
 
