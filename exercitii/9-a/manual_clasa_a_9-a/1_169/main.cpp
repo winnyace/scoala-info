@@ -6,11 +6,10 @@ int main()
     // 1/167 să se afiseze MA dintre numerele positive dintr-un vector.
     int numel, i, ma = 0;
     cout << "voi face MA a numerelor positive dintr-un vector.\n";
-    cout << "câte elemente vrei să aibe vectorul:"; cin >> numel;
+    cout << "câte elemente vrei în vector?\n"; cin >> numel;
     int arr[numel]; // poti defeni un array/vector si asa decat sa-l definesti arr[val]. tine minte ca iti trebuie prima data n.
-    for(i = 0; i < numel; i++)
-    {
-		cout << "v[" << i << "] = "; cin >> arr[i];
+    for(i = 0; i < numel; i++) {
+		cout << "elementul " << i << " = "; cin >> arr[i];
 		if(arr[i] > 0)
 			ma += arr[i];
     }
