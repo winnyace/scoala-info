@@ -10,23 +10,16 @@ int main()
 	num = rand()%21; // avem %21 dupa rand() pentru a limita nr generate la 20.
 
 	for(int i = 0; i <= 5; i++) {
+        // !!!debug: cout << i << endl;
 		cout << "ma gandesc la un nr de la 1 la 20. incerca sa il ghicesti "; cin >> user;
-		if(i == 5 && user != num) {
+		if(i == 5 && user != num)
 			cout << "scuze nu ai ghicit nr meu. el era " << num;
-			break;
-		}
-		else if(user == num) {
+		else if(user == num)
 			cout << "da! ai ghicit in " << i << " incercari";
-			break;
-		}
-		else if(user < num) {
+		else if(user < num)
 			cout << "mai mare e nr meu \n";
-			 // debug cout << i << endl;
-		}
-		else if(user > num) {
+		else if(user > num)
 			cout << "mai mic e nr meu \n";
-			// debug cout << i << endl;
-		}
 	}
 	return 0;
 }
