@@ -1,17 +1,16 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-    int no, pc; // no = Numarul Original, pc = Produsul Cifrelor
-    cout << "nr = "; cin >> no;
-    pc = 1;
-    while(no != 0)
-    {
-        pc = pc * (no % 10); // la fel ca la suma doar ca schimbam semnul. grija insa, nu uita sa adaugi o paranteza la ultima operatie.
-        no = no / 10;
+    // acest program, folosind mod și div, facem produsul cifrelor unui nr.
+    int num, produs = 1;
+    cout << "o sa fac produsul cifrelor unui numar. doar spune numarul.\n"; cin >> num;
+    while (num != 0) {
+        // div/10 scapă de ultima cifră. când nu mai avem cifre, numărul devine 0.
+        produs *= num%10;
+        num /= 10;
     }
-    cout << "Produsul cifrelor = " << pc;
+    cout << "produsul cifrelor numărului este " << produs;
     return 0;
 }
