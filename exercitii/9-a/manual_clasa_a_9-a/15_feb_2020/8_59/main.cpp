@@ -1,27 +1,37 @@
 #include <iostream>
-
 using namespace std;
+
+/* Sa se afiseze toate numerele care sunt palimdrom si care apartin intervalului [a,b].
+ * a si b sunt introduse de la tastatura */
+
+int numInvers(int num) // am creat o funcție pentru creerea unui număr invers.
+{
+    int inv = 0;
+    while (num != 0) {
+        inv = inv * 10 + num%10;
+        num /= 10;
+    }
+    return inv;
+}
+
+bool palimdrom(int num) // și o variabilă, folosit tipul boolean, pentru palidrom, folosind funcția numInvers.
+{
+    int invx = numInvers(num); // reduc cod facând acest lucru.
+    if (invx == num)
+        return true;
+    else
+        return false;
+}
+
+// motivul principal pentru acest lucru este că codul este mai ușor de citit, dar și faptul că este mai ușor de rafinat.
 
 int main()
 {
-	/* Sa se afiseze toate numerele care sunt palimdrom si care apartin intervalului [a,b].
-	 * a si b sunt introduse de la tastatura */
-	int a, b, x, xc, invx = 0;
-	cout << "dati o val lui a:"; cin >> a;
-	cout << "dati o val lui b:"; cin >> b;
+	int a, b;
+    cout << "voi spune toate numerele care sunt palimdrome dintr-un interval.\n";
+    cout << "care sunt extremitatile intervalului?\n"; cin >> a >> b;
 	for (int i = a; i <= b; i++)
-	{
-		x = i; xc = x;
-		while (x != 0)
-		{
-			invx = invx * 10 + x % 10;
-			x = x / 10;
-		}
-		if (invx == xc)
-		{
-			cout << endl <<invx << " palimdrom pentru:" << xc;
-		}
-		invx = 0;
-	}
+        if (palimdrom(i) == true)
+            cout << i << " ";
 	return 0;
 }
