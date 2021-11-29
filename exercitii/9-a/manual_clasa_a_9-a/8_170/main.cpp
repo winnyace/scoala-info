@@ -1,22 +1,22 @@
 #include <iostream>
-
 using namespace std;
 
-int main() {
-	// 8/170 sa se afiseze inv unui vector.
-	int n, i;
-	cin >> n;
-	int a[n];
-	for(i = 0; i < n; i++) {
-		cin >> a[i]; 
+int main()
+{
+	// 8/170 să se afiseze inversul unui vector.
+	int numel;
+    cout << "o sa invers un vector.\n";
+	cout << "cate elemente vrei in vector?\n"; cin >> numel;
+	int a[numel];
+	for(int i = 0; i < numel; i++) {
+	    cout << "elementul " << i << " = "; cin >> a[i];
 	}
-	for(i = 0; i < n/2; i++) { // ai nevoie de un for aici pentru inv arr.
-		int x = a[i];
-		a[i] = a[n-i-1]; // acesta e formula
-		a[n-i-1] = x; // refolosesti aici formula
+	for(int i = 0; i < numel/2; i++) { // mergem până la jumătatea vector-ul
+        int aux = a[i];
+	    a[i] = a[numel-i-1]; // și inversăm.
+    	a[numel-i-1] = aux;
 	}
-	for(i = 0; i < n; i++) {
+	for(int i = 0; i < numel; i++)
 		cout << a[i] << " ";
-	}
 	return 0;
 }
