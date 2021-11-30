@@ -1,27 +1,22 @@
 #include <iostream>
-
 using namespace std;
 
-int main() {
-	// 3/169 sa se afiseze cel mic element dintr-un vector si positia sa.
-	int n, i, min = 0;
-	cout << "cate elemente:" ;cin >> n;
-	int arr[n];
-	cout << "un element:"; cin >> arr[0]; min = arr[0];
-	for(i = 1; i < n; i++) {
-		cout << "un element:"; cin >> arr[i];
-		if(min > arr[i]) {
-			min = arr[i];
-		}
-	}
-	cout << "cel mai mic element:" << min << endl;
-	cout << "pozitiile pe care apare:";
-	for(i = 0; i < n; i++) {
-		if(arr[i] == min) {
-			cout << i << " ";
-		}
-	}
-	return 0;		
+int main()
+{
+	// 3/169 să se afiseze cel mic element dintr-un vector și posiția sa.
+	int numel, pos, min = 0;
+    cout << "o sa gasesc cel mai mic element din vector.\n";
+	cout << "cate elemente vrei in vector?\n"; cin >> numel;
+	int arr[numel];
+	cout << "elementul 0 = "; cin >> arr[0]; min = arr[0]; // luăm primul element pentru a compara cu restul de elemente.
+	for (int i = 1; i < numel; i++) {
+        cout << "elementul " << i << " = "; cin >> arr[i];
+		if (min > arr[i]) {
+            min = arr[i];
+            pos = i;
+        }
+    }
+    cout << "elementul minim din vector este " << min;
+    cout << "\nsi prima positia pe care am gasit el min este " << pos;
+	return 0;
 }
-
-	
