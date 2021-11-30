@@ -5,7 +5,7 @@ modificările vor veni în timp. încerc să aduc și explicații la ce este dat
 
 # Download
 
-Ambele metode necesită clonarea/downloadarea repo-ului.
+Pentru rulare este necesară clonarea/downloadarea repo-ului.
 
 ![download-zip](https://i.imgur.com/ueG1Sz6.png)
 
@@ -27,7 +27,7 @@ Cea mai ușoară modalitate de a rula fișirele este a instala [Code::Blocks cu 
 Deschidem Code::Blocks și tragem de fișierul pe care dorim să-l rulăm în fereastra Code::Blocks. După aceia, apăsăm <code>CTRL + F10</code> pentru a compila și rula programul nostru.
 
 **Linux:**\
-Modalitatea cea mai simplă de a rula fișierele este de a folosi GCC. Instalăm GCC, din terminal astfel:<br>
+Modalitatea cea mai simplă de a rula fișierele este de a folosi GCC. Instalăm GCC, din terminal astfel:\
 
 Debian/Ubuntu
 \
