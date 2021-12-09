@@ -6,7 +6,7 @@ int main()
     // se citesc numere, pe rând, diferite de 0. să se afișeze numărul minim dintre numerele negative.
     int n, min = -1;
     bool sw = false; // teorie la variabile.
-    cin >> n;
+    cout << "o sa spune care este minul dintre numerele negative pe care le mi-le dai tu."; cin >> n;
     if (n != 0)
         while (n != 0) {
             if (min > n) {
