@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    // Acest program va compara doua numere si il va alge pe cel maxim.
+    // Acest program va compara două numere și îl va alege pe cel mare.
     int a, b;
     cout << "a = "; cin >> a;
     cout << "b = "; cin >> b;
