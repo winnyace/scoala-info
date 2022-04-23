@@ -1,0 +1,4 @@
+/home/ion/Documents/Projects/C++/extra/Qt/build-HelloUser-Desktop-Debug/CMakeFiles/HelloUser.dir
+/home/ion/Documents/Projects/C++/extra/Qt/build-HelloUser-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/ion/Documents/Projects/C++/extra/Qt/build-HelloUser-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/ion/Documents/Projects/C++/extra/Qt/build-HelloUser-Desktop-Debug/CMakeFiles/HelloUser_autogen.dir
