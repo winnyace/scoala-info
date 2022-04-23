@@ -1,7 +1,7 @@
 # scoala-info
 
 Acest repository a fost creat cu scopul de a păstra o copie a teoriei dată la clasă + exerciții, dar și cu scopul personal de a mă familiariza cu Git și GitHub.
-modificările vor veni în timp. încerc să aduc și explicații la ce este dat + variantele mai moderne cules de mine din diferite surse, folosind setul de librării STL, inclus C++. cei care doresc să aduce lucruri aici sunt bine poftiț! 
+modificările vor veni în timp. încerc să aduc și explicații la ce este dat + variantele mai moderne culese de mine din diferite surse, folosind setul de librării STL, inclus în C++. cei care doresc să aduce lucruri aici sunt bine poftiț! 
 
 # Download
 
@@ -15,14 +15,14 @@ Extragem din archiva ZIP ce dorim să rulă.
 
 Pentru clonare, dacă avem Linux sau [Git for Windows](https://gitforwindows.org/), vom scrie:
 
-<code>git clone https://github.com/winnyace/scoala-info</code>
+<code>git clone https://github.com/winnyace/scoala-info.git</code>
 
 Un folder cu același nume este acum present în directorul în care ne afla la cel moment. 
 
-# Rulare
+# Rulare (programele simple)
 
 **Windows:**\
-Cea mai ușoară modalitate de a rula fișirele este a instala [Code::Blocks cu tot cu compilatorul Mingw-W64.](https://www.fosshub.com/Code-Blocks.html?dwl=codeblocks-20.03mingw-setup.exe)
+Cea mai ușoară modalitate de a rula fișirele este a instala [Code::Blocks cu tot cu compilatorul Mingw-W64.](https://www.codeblocks.org/downloads/)
 
 Deschidem Code::Blocks și tragem de fișierul pe care dorim să-l rulăm în fereastra Code::Blocks. După aceia, apăsăm <code>CTRL + F10</code> pentru a compila și rula programul nostru.
 
