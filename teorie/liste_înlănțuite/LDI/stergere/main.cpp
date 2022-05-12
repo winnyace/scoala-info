@@ -37,13 +37,27 @@ void afisare(nod *prim)
     }
 }
 
-void sterg_prim(nod *&prim)
+void sterg(nod *&prim, nod *&ultim)
 {
-    cout << "\nsterg primul nod din lista curenta, acest nod fiind " << prim->info << endl;
-    nod *p = prim;
-    prim = prim->urm;
-    prim->urm->ant = NULL;
-    delete p;
+    nod *p; 
+    int val;
+    cout << "dati valoarea nodului pe care o sa-l sterg: "; cin >> val;
+    for (p = prim; p != NULL && p->info != val; p = p->urm);
+    if (p == prim) {
+        prim = prim->urm; // așa ștergem primul nod dintr-o listă
+        prim->ant = NULL;
+        delete p;
+    }
+    else if (p == ultim) {
+        ultim = ultim->ant; // așa ștergem ultimul nod dintr-o listă
+        ultim->urm = NULL;
+        delete p;
+    }
+    else {
+        p->ant->urm = p->urm; // si așa ștergem un nod din interior. 
+        p->urm->ant = p->ant; // toate au la bază faptul că rup legăturile din ambele părți ale nodului, unde e posibil, bineînțeles.
+        delete p;
+    }
 }
 
 int main()
@@ -53,6 +67,6 @@ int main()
     prim = ultim = NULL;
     creare(prim, ultim); afisare(prim);
     cout << endl;
-    sterg_prim(prim); afisare(prim);
+    sterg(prim, ultim); afisare(prim);
     return 0;
 }
