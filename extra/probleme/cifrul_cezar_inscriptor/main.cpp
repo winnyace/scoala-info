@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
-#include <cstring>
 using namespace std;
+
+// https://ro.wikipedia.org/wiki/Cifrul_Cezar
 
 int main()
 {
