@@ -33,28 +33,12 @@ void afisare(nod *prim)
     }
 }
 
-void inserare_dupa_prim(nod *&prim, nod *&ultim) 
-{
-    nod *nou = new nod;
-    cout << "dati un nr intreg care va fi pus dupa primul nod: "; cin >> nou->info;
-    if (prim->urm == NULL) {
-        prim->urm = nou;
-        nou->urm = NULL;
-        ultim = nou;
-    }
-    else {
-        nou->urm = prim->urm;
-        prim->urm = nou;
-    }
-}
-
 int main()
 {
     nod *prim, *ultim;
     prim = new nod; ultim = new nod;
     prim = ultim = NULL;
     creare(prim, ultim); afisare(prim);
-    cout << endl; 
-    inserare_dupa_prim(prim, ultim); afisare(prim);
+    cout << endl;
     return 0;
 }
