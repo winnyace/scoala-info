@@ -1,46 +1,31 @@
-# scoala-info
+# Scoala-info
 
 Acest repository a fost creat cu scopul de a păstra o copie a teoriei dată la clasă + exerciții, dar și cu scopul personal de a mă familiariza cu Git și GitHub.
 modificările vor veni în timp. încerc să aduc și explicații la ce este dat + variantele mai moderne culese de mine din diferite surse, folosind setul de librării STL, inclus în C++. cei care doresc să aduce lucruri aici sunt bine poftiț! 
 
-# Download
+# Structura
 
-Pentru rulare este necesară clonarea/downloadarea repo-ului.
+Este repo are 3 foldere, un fișier "README.md" și un fișier ".gitignore".
+Cele 3 foldere sunt "exerciții", "teorie" și "extra".
 
-![download-zip](https://i.imgur.com/ueG1Sz6.png)
+* În "exerciții", se află majoritatea exerciților făcute la clasă, resolvate.
 
-Extragem din archiva ZIP ce dorim să rulă.
+* În "teorie", se alfă programe ce explică structuri de date, operații, diferite lucruri despre limbaj, etc. Aici se află și câteva lecții, culese de pe Adservio, oferite de doamna. Acele documente nu sunt modificate deloc, sub nicio formă.
 
----
+* În "extra", se află tot ce am făcut eu extra în timpul vacanțelor sau într-un weekend. Nu au nici un comentariu explicativ pus, iar dacă au sunt cel mai probabil vag explicative.
 
-Pentru clonare, dacă avem Linux sau [Git for Windows](https://gitforwindows.org/), vom scrie:
+* "README.md" este fișirul ce este afișat pe pagina principală al acestui repo și fișierul pe care, probabil, sper, că-l citești acum.
 
-<code>git clone https://github.com/winnyace/scoala-info.git</code>
+* În ".gitignore" sunt fișier ce sunt ignorate de către git. În mare parte sunt fișiere binare prin care eu rulez programele din repo.
 
-Un folder cu același nume este acum present în directorul în care ne afla la cel moment. 
+# Download și rulare
 
-# Rulare (programele simple)
+Pentru downloadare avem mai multe modalității:
 
-**Windows:**\
-Cea mai ușoară modalitate de a rula fișirele este a instala [Code::Blocks cu tot cu compilatorul Mingw-W64.](https://www.codeblocks.org/downloads/)
+* Putem să downloadăm întreg repo-ul de la secțiunea Code; ![](https://winnyace82.s-ul.eu/jstS8jmk)
 
-Deschidem Code::Blocks și tragem de fișierul pe care dorim să-l rulăm în fereastra Code::Blocks. După aceia, apăsăm <code>CTRL + F10</code> pentru a compila și rula programul nostru.
+* Putem clona repo-ul, dacă avem pachetul [git instalat pe Linux](https://pkgs.org/download/git) sau avem instalat [Git for Windows](https://gitforwindows.org/), prin comanda 
+<br> <code>git clone https://github.com/winnyace/scoala-info.git</code>
 
-**Linux:**\
-Modalitatea cea mai simplă de a rula fișierele este de a folosi GCC. Instalăm GCC, din terminal astfel:\
+* Putem să mergem la fișierul dorit, și dăm click pe iconița "Copy raw contents". Putem după să inserăm codul dorit în IDE-ul/code editor-ul preferat. ![](https://winnyace82.s-ul.eu/BRxabe2w)
 
-Debian/Ubuntu
-\
-<code>sudo apt install gcc g++</code>
-
-Arch/Manjaro
-\
-<code>sudo pacman -S gcc</code>
-
-Găsim fișierul pe care vrem să-l rulăm și, tot din terminal, vom compila fișierul astfel:
-
-<code>g++ -o *nume_fisier* *nume_fisier*.cpp</code>
-
-Pentru a rula fișierul compilat, vom face astfel:
-
-<code>./*nume_fisier*</code>
