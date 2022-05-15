@@ -14,7 +14,7 @@ Cele 3 foldere sunt "exerciții", "teorie" și "extra".
 
 * În "extra", se află tot ce am făcut eu extra în timpul vacanțelor sau într-un weekend. Nu au nici un comentariu explicativ pus, iar dacă au sunt cel mai probabil vag explicative.
 
-* "README.md" este fișirul ce este afișat pe pagina principală al acestui repo și fișierul pe care, probabil, sper, că-l citești acum.
+* "README.md" este fișirul ce este afișat pe pagina principală al acestui repo și fișierul pe care, probabil, sper, îl citești acum.
 
 * În ".gitignore" este un fișier ce sunt ignorate de către git. În mare parte sunt fișiere binare prin care eu rulez programele din repo.
 
