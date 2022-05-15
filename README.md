@@ -5,7 +5,7 @@ modificările vor veni în timp. încerc să aduc și explicații la ce este dat
 
 # Structura
 
-Este repo are 3 foldere, un fișier "README.md" și un fișier ".gitignore".
+În acest repo, sunt prezente 3 foldere, un fișier "README.md" și un fișier ".gitignore".
 Cele 3 foldere sunt "exerciții", "teorie" și "extra".
 
 * În "exerciții", se află majoritatea exerciților făcute la clasă, resolvate.
@@ -16,7 +16,7 @@ Cele 3 foldere sunt "exerciții", "teorie" și "extra".
 
 * "README.md" este fișirul ce este afișat pe pagina principală al acestui repo și fișierul pe care, probabil, sper, că-l citești acum.
 
-* În ".gitignore" sunt fișier ce sunt ignorate de către git. În mare parte sunt fișiere binare prin care eu rulez programele din repo.
+* În ".gitignore" este un fișier ce sunt ignorate de către git. În mare parte sunt fișiere binare prin care eu rulez programele din repo.
 
 # Download și rulare
 
