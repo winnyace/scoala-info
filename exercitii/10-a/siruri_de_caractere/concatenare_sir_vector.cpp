@@ -12,7 +12,7 @@ int main()
     for(i = 0; s1[i] != 0; i++);
     cout << "n = "; cin >> n;
     for(j = 0; j < n; j++, i++)
-		s1[i] = s2[j];
+		  s1[i] = s2[j];
     s1[i] = 0;
     cout << endl << "sirul concatenat:" << s1;
 
