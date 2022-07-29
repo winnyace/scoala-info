@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/fizzbuzz_tester.dir/fizzbuzz_tester_autogen/mocs_compilation.cpp.o CMakeFiles/fizzbuzz_tester.dir/main.cpp.o CMakeFiles/fizzbuzz_tester.dir/mainwindow.cpp.o -o fizzbuzz_tester  /usr/lib/libQt5Widgets.so.5.15.3 /usr/lib/libQt5Gui.so.5.15.3 /usr/lib/libQt5Core.so.5.15.3 

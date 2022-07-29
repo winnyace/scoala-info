@@ -1,4 +1,0 @@
-/home/ion/Documents/Projects/C++/extra/Qt/build-fizzbuzz_tester-Desktop-Debug/CMakeFiles/fizzbuzz_tester.dir
-/home/ion/Documents/Projects/C++/extra/Qt/build-fizzbuzz_tester-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/ion/Documents/Projects/C++/extra/Qt/build-fizzbuzz_tester-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/ion/Documents/Projects/C++/extra/Qt/build-fizzbuzz_tester-Desktop-Debug/CMakeFiles/fizzbuzz_tester_autogen.dir
