@@ -19,9 +19,7 @@ struct test
 
 int main()
 {
-    test t1, t2;
-    t1.x = 1; t1.y = 2;
-    t2.x = 3; t2.y = 4;
+    test t1(1, 2), t2(3, 4);
     cout << t1.x << " " << t1.y << endl << t2.x << " " << t2.y << endl;
 
     t1 = t1 + t2; // aici folosim operatorul + pentru a aduna două structuri.
