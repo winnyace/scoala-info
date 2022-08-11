@@ -1,23 +1,31 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
-// https://ro.wikipedia.org/wiki/Cifrul_Cezar
+// https://en.wikipedia.org/wiki/Caesar_cipher
 
 int main()
 {
-    string str;
-    getline(cin, str);
+    std::string input;
+    int n;
+    char aux;
+    std::getline(std::cin, input);
+    std::cin >> n;
 
-    string cStr;
-    for (long unsigned i = 0; i < str.length(); i++) {
-        if (str.at(i) >= 'a' && str.at(i) < 'z')
-           cStr += str.at(i)+1;
-        if (str.at(i) >= 'z')
-            cStr += str.at(i)-'z'+'`'+1;
-        if (str.at(i) == ' ')
-            cStr += str.at(i);
+    std::string res;
+    for (int i = 0; i < input.size(); i++)
+    {
+        if (input.at(i) >= 'a' && input.at(i) <= 'z')
+            res += input.at(i)+n;
+        if (input.at(i) == ' ') 
+            res += ' ';
+        
+        if (res.at(i) > 'z')
+        {
+            aux = res.at(i);
+            res.pop_back();
+            res += aux-26; 
+        }
     }
-    cout << cStr;
-    return 0;
+
+    std::cout << res;
 }
