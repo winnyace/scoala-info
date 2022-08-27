@@ -12,11 +12,9 @@ Cele 3 foldere sunt "exerciții", "teorie" și "extra".
 
 * În "teorie", se alfă programe ce explică structuri de date, operații, diferite lucruri despre limbaj, etc. Aici se află și câteva lecții, culese de pe Adservio, oferite de doamna. Acele documente nu sunt modificate deloc, sub nicio formă.
 
-* În "extra", se află tot ce am făcut eu extra în timpul vacanțelor sau într-un weekend. Nu au nici un comentariu explicativ pus, iar dacă au sunt cel mai probabil vag explicative.
-
 * "README.md" este fișierul ce este afișat pe pagina principală al acestui repo și fișierul pe care, probabil, sper, îl citești acum.
 
-* În ".gitignore" este un fișier ce include path-ul către anumite fișier, ce vor fi ignorate de către git. În mare parte sunt fișiere binare prin care eu le folosc să rulez programele din repo.
+* ".gitignore" este un fișier ce include path-ul către anumite fișier, ce vor fi ignorate de către git. În mare parte sunt fișiere binare prin care eu le folosc să rulez programele din repo.
 
 # Download și rulare
 
