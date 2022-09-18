@@ -1,20 +1,17 @@
 # Scoala-info
 
 Acest repository a fost creat cu scopul de a păstra o copie a teoriei dată la clasă și exercițiile făcute, dar și cu scopul personal de a mă familiariza cu Git și GitHub.
-Modificările vor veni în timp. încerc să aduc și explicații la ce este dat + variantele mai moderne culese de mine din diferite surse, folosind setul de librării STL, inclus în C++. Cei care doresc să contribuie sunt bine poftiț! 
+Modificările vor veni în timp. încerc să aduc și explicații la ce este dat. Cei care doresc să contribuie sunt bine poftiț! 
+Lucruri extra despre C++, culese de mine, se găsesc [în dumpul meu de chestii C++](https://github.com/winnyace/my-cpp-dump).
 
 # Structura
 
-În acest repo, sunt prezente 3 foldere, un fișier "README.md" și un fișier ".gitignore".
-Cele 3 foldere sunt "exerciții", "teorie" și "extra".
+În acest repo, sunt prezente 2 foldere
+Cele 2 foldere sunt "exerciții" și "teorie".
 
 * În "exerciții", se află majoritatea exerciților făcute la clasă, resolvate.
 
 * În "teorie", se alfă programe ce explică structuri de date, operații, diferite lucruri despre limbaj, etc. Aici se află și câteva lecții, culese de pe Adservio, oferite de doamna. Acele documente nu sunt modificate deloc, sub nicio formă.
-
-* "README.md" este fișierul ce este afișat pe pagina principală al acestui repo și fișierul pe care, probabil, sper, îl citești acum.
-
-* ".gitignore" este un fișier ce include path-ul către anumite fișier, ce vor fi ignorate de către git. În mare parte sunt fișiere binare prin care eu le folosc să rulez programele din repo.
 
 # Download și rulare
 
